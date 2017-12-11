@@ -20,7 +20,7 @@ Its a GET reqest which returns unsercured server resoruces to end user
 
 3) /api/secure/all/ 
 Its a GET reqest which returns sercured resoruces from server to end user
-Requires a JWT Token with Header key - "Authorisation" and value - "Token:JWT_Token_Value"
+Requires a JWT Token with Header key - "Authorization" and value - "Token:JWT_Token_Value"
 
 4) /api/secure/all/admin 
 Its a GET reqest which returns sercured resoruces from server to end user having ADMIn role
